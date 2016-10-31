@@ -1,0 +1,140 @@
+.selector {
+  width: 2rem;
+  border: 1px solid #ddd;
+}
+
+[data-dpr="1"] .selector {
+  height: 32px;
+  font-size: 14px;
+}
+
+[data-dpr="2"] .selector {
+  height: 64px;
+  font-size: 28px;
+}
+
+[data-dpr="3"] .selector {
+  height: 96px;
+  font-size: 42px;
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: #ee0a3b;
+}
+
+.page {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.header img {
+  width: 10rem;
+}
+
+.content {
+  width: 10rem;
+}
+
+.list {
+  width: 10rem;
+  padding: 0 0.133333rem;
+  box-sizing: border-box;
+}
+
+.list li {
+  display: table;
+  padding: 0.266667rem 0 0.186667rem 0;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 1px;
+  position: relative;
+}
+
+.list li a {
+  width: 2.346667rem;
+  height: 2.346667rem;
+  display: table-cell;
+}
+
+.list li a img {
+  width: 2.346667rem;
+  height: 2.346667rem;
+}
+
+.item-content {
+  display: table-cell;
+  width: 7.653333rem;
+  padding-left: 0.213333rem;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.item-content .item-title {
+  color: #333;
+  line-height: 1.25;
+}
+
+[data-dpr="1"] .item-content .item-title {
+  font-size: 15px;
+}
+
+[data-dpr="2"] .item-content .item-title {
+  font-size: 30px;
+}
+
+[data-dpr="3"] .item-content .item-title {
+  font-size: 45px;
+}
+
+.item-content  .item-price {
+  padding: 0.106667rem 0;
+  color: #ee0a3b;
+}
+
+[data-dpr="1"] .item-content  .item-price {
+  font-size: 12px;
+}
+
+[data-dpr="2"] .item-content  .item-price {
+  font-size: 24px;
+}
+
+[data-dpr="3"] .item-content  .item-price {
+  font-size: 36px;
+}
+
+.item-content  .item-price .item-special {
+  width: 0.613333rem;
+  height: 0.213333rem;
+  background-color: #ee0a3b;
+  color: #fff;
+  margin-right: 0.066667rem;
+}
+
+.item-content  .item-price small {
+  color: #ee0a3b;
+  font-weight: 700;
+  margin-left: 0.133333rem;
+}
+
+.item-desc {
+  color: #ff3600;
+}
+
+.btn-buy {
+  width: 1.466667rem;
+  height: 0.613333rem;
+  background-color: #ee0a3b;
+  font-size: 0.32rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0.133333rem;
+  right: 0.133333rem;
+}
